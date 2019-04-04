@@ -13,19 +13,20 @@ for (var i=0; i<x.length; i++){
 }
 console.log(x);
   // var rectangle = Math.pow(k);
-  let monday = ["m", "o", "n", "d"];
-  let tuesday = ["t", "u", "e", "s"];
+  // let monday = ["m", "o", "n", "d"];
+  // let tuesday = ["t", "u", "e", "s"];
+  //
+  // let temps = [
+  //    ["c", "a", "t", "y"],
+  //    ["d", "o", "g", "y"],
+  //
+  // ];
 
-  let temps = [
-     ["c", "a", "t", "y"],
-     ["d", "o", "g", "y"],
+  for (let i = 0; i < k; i++) {
 
-  ];
-
-  for (let i = 0; i < 2; i++) {
-     console.log("Row #" + i)
-      for (let j = 0; j < 4; j++) {
-        console.log(i, j, temps[i][j])
+     console.log("Row #" + letters[i])
+      for (let j = 0; j < rec; j++) {
+        console.log(i, letters[i])
      }
   }
 
